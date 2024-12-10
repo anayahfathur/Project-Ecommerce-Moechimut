@@ -254,7 +254,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('../img/gambar_revisi_lagi/bg4.jpg');
+  background-image: url('../img/gambar_revisi_lagi/bg_mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -713,6 +713,7 @@ footer .credit a {
   html {
     font-size: 62.5%;
   }
+  
 
   #hamburger-menu {
     display: inline-block;
@@ -800,6 +801,51 @@ footer .credit a {
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 55%; /* Menyesuaikan ukuran font */
   }
-}
+    html {
+      font-size: 50%; /* Menyesuaikan ukuran font */
+    }
+  
+    /* Menghilangkan margin dan padding di body */
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Menghindari overflow horizontal */
+    }
+  
+    /* Atur box-sizing untuk semua elemen */
+    * {
+      box-sizing: border-box; /* Menghitung padding dan border dalam lebar elemen */
+    }
+  
+    /* Memastikan elemen-elemen lainnya tidak melebihi lebar layar */
+    .container, .navbar, .main-text, .about-text, .products-container, .reviews-container, .contact-info {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    /* Jika ada gambar atau elemen dengan lebar yang tidak diatur, tambahkan pengaturan berikut */
+    img {
+      max-width: 100%; /* Memastikan gambar tidak melampaui lebar elemen container */
+      height: auto;
+    }
+    /* Navbar */
+  .navbar {
+    width: 100%; /* Memastikan navbar mengisi lebar layar */
+    padding: 30px 5%; /* Menambahkan padding pada navbar agar terlihat lebih lebar */
+  }
+  .navbar .navbar-logo{
+    font-size: 20px;
+  }
+  .about .row .about-img img{
+    margin-left: 30px;
+  }
+
+  
+  }
+  
+  
+
+
