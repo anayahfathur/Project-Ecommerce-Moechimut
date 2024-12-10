@@ -1,12 +1,12 @@
 document.addEventListener('alpine:init', () => {
     Alpine.data('products', () => ({
        items: [
-        { id: 1, name: 'Vanilla Bites', img: '1.jpg', price: 20000 },
-        { id: 2, name: 'Choco Bites', img: '2.jpg', price: 25000 },
-        { id: 3, name: 'Mix Bites', img: '3.jpg', price: 30000 },
-        { id: 4, name: 'Strawberry Bites', img: '4.jpg', price: 35000 },
-        { id: 5, name: 'Matcha Bites', img: '5.jpg', price: 40000 },
-        { id: 6, name: 'Biscuit Bites', img: '6.jpg', price: 50000 },
+        { id: 1, name: 'Vanilla Bites', img: '1.jpg', price: 15000 },
+        { id: 2, name: 'Choco Bites', img: '2.jpg', price: 15000 },
+        { id: 3, name: 'Mix Bites', img: '3.jpg', price: 20000 },
+        { id: 4, name: 'Strawberry Bites', img: '4.jpg', price: 17000 },
+        { id: 5, name: 'Matcha Bites', img: '5.jpg', price: 17000 },
+        { id: 6, name: 'Biscuit Bites', img: '6.jpg', price: 17000 },
         
        ],
     }));

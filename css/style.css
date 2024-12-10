@@ -1,6 +1,6 @@
 :root {
-  --primary: #7096D1;
-  --bg: #BAD6EB;
+  --primary: #4c3400;
+  --bg: #efe5cf;
   }
 
 * {
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat Bold', Agrandir;
+  font-family: 'Montserrat Bold', Montserrat;
   background-color: var(--bg);
   color: #382100;
 }
@@ -39,13 +39,13 @@ body {
 
 .navbar .navbar-logo {
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 750;
   color: #fff;
   font-style: bold;
 }
 
 .navbar .navbar-logo span {
-  color: #7096D1;
+  color: #ceaf71;
 }
 
 .navbar .navbar-nav a {
@@ -254,7 +254,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('../img/gambar_revisi_lagi/bg2.jpg');
+  background-image: url('../img/gambar_revisi_lagi/bg4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -362,6 +362,7 @@ body {
   -webkit-mask-size: 90%;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
+  border-radius: 300px;
 }
 
 .about .row .content {
@@ -376,8 +377,8 @@ body {
 
 .about .row .content p {
   margin-bottom: 0.8rem;
-  font-size: 1.3rem;
-  font-weight: 100;
+  font-size: 1.8rem;
+  font-weight: 200;
   line-height: 1.6;
 }
 
@@ -441,7 +442,7 @@ body {
 .products .product-icons a {
   width: 4rem;
   height: 4rem;
-  color: #fff;
+  color: #d4ab54;
   margin: 0.3rem;
   border: 1px solid #666;
   border-radius: 50%;
@@ -491,7 +492,7 @@ body {
 
 .reviews h2 {
   
-  font-size: 36px;
+  font-size: 2.6rem;
   margin-bottom: 40px;
   color: #382100;
 }
@@ -609,7 +610,7 @@ footer .socials a {
 
 footer .socials a:hover,
 footer .links a:hover {
-  color: var(--bg);
+  color: #fff;
 }
 
 footer .links {
@@ -626,7 +627,7 @@ footer .credit {
 }
 
 footer .credit a {
-  color: var(--bg);
+  color: #fff;
   font-weight: 700;
 }
 
