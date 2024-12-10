@@ -139,7 +139,7 @@ body {
   width: 35rem;
   padding: 0 1.5rem;
   background-color: #fff;
-  color: var(--bg);
+  color: black;
   transition: 0.3s;
 }
 
@@ -484,7 +484,8 @@ body {
 }
 /* reviews */
 .reviews {
-  padding: 60px 20px;
+  margin-top: 45px;
+  /* padding: 60px 20px; */
 
   background-color: var(--bg);
   text-align: center;
@@ -548,7 +549,7 @@ body {
 /* Contact Section */
 .contact .row {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background-color: #222;
 }
 
@@ -756,6 +757,7 @@ footer .credit a {
 
   .about .row {
     flex-wrap: wrap;
+
   }
 
   .about .row .about-img img {
@@ -769,20 +771,23 @@ footer .credit a {
   }
 
   .about .row .content h3 {
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 2rem;
   }
 
   .about .row .content p {
     font-size: 1.6rem;
+    
   }
 
   .menu p {
     font-size: 1.2rem;
   }
+  
 
   .contact .row {
     flex-wrap: wrap;
+    
   }
 
   .contact .row .map {
@@ -839,6 +844,7 @@ footer .credit a {
   .about .row .about-img img{
     margin-left: 30px;
   }
+  .about .row .content h3
 
   
   }
